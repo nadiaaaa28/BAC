@@ -1,0 +1,1 @@
+function n(e){return e.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9\s-]/g," ").replace(/\s+/g," ").trim()}function s(e,t,a){if(e===1)return`1 ${t}`;const r=e%100,o=e!==0&&(r===0||r>=20);return`${e} ${o?"de ":""}${a}`}export{n,s as p};

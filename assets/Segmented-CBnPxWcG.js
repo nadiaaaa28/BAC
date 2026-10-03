@@ -1,0 +1,1 @@
+import{j as s}from"./index-CF7CPJOd.js";function n({options:a,value:r,onChange:t,label:i}){return s.jsx("div",{className:"segmented",role:"group","aria-label":i,children:a.map(e=>s.jsx("button",{type:"button",className:"pressable","aria-pressed":e.id===r,onClick:()=>t(e.id),children:e.label},e.id))})}export{n as S};
